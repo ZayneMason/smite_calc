@@ -7,7 +7,7 @@ class Character
     @name = name
     @base_stats = char_hash
     @character_details = @base_stats.dup
-    @ability_stats = @character_details[:ability_stats]
+    @ability_stats = @character_details[:ability_stats]  # Bad way to organize abilites for now, just for demo purposes
     @items = []
     generate_levels
     @current_level = 0
@@ -45,6 +45,7 @@ class Character
     @output_stats
   end
   
+  # Might have to update this to update based on buffs/debuffs
   def update_stats
     @character_details.each_pair do |stat, _|
       @items.each do |item|
