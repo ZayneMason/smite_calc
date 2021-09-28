@@ -88,25 +88,12 @@ class Character
     mechanize = Mechanize.new 
     @god_page = mechanize.get("https://smite.fandom.com/wiki/#{god}")
     @stats = @god_page.search('table.infobox tr')[14..-2].text
-    # @stats.gsub!("\n", " ") # This and next line is just cleaning up the string
-    @stats.gsub!("Stats", '')
-    @stats_num = @stats.lines(chomp: true)
-    @stats_num.delete_if { |x| x.empty?}
-    @stats_num[@stats_num.index("None")] = "1" if @stats_num.include?("None")
-    # @stats_num.delete_if { |x| x != /\d+/.match?("#{@stats}")}
-    # 21.times do # 21 is # of stats on the page
-    #   @stats_num << /\d+/.match("#{@stats}").to_s.to_f  # Inserting digits into the stats array. "/\d+/" is looking for 1 or more digits.
-      
-    # end
+    p @stats
+    p @stats.scan(/\b\d*\.*\d+/)
+    p @stats.scan(/\/+\d+\.*\d+/) , @stats.scan(/\d+\.*\d+\//)
 
-    # @stat_arr = @stats.split(" ")
-    # @stat_arr.each { |_| @stat_arr.delete_if { |x| x.to_s == x}}
-    # @stats.gsub!(/:/, ': ')
-    # @stats.split.each {|word| word << ", " if word == word.to_i.to_s}
-    # @stats = @stats.to_hash
-    p @stats_num
   end
 end
 
-ra = Character.new('Ra')
+ra = Character.new('Kali')
 ra
