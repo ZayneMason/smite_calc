@@ -15,6 +15,8 @@ class String
   end
 end
 
+
+###################################################################################################
 # class Character
 #   attr_reader :items, :character_details, :levels, :name
   
@@ -81,19 +83,56 @@ end
 #   protected
 #   attr_accessor :character_details
 # end
+##################################################################################################
+
+# class Character
+#   def initialize(god)
+#     @stats_num = [] # Creating empty array to store base stat numbers
+#     mechanize = Mechanize.new 
+#     @god_page = mechanize.get("https://smite.fandom.com/wiki/#{god}")
+#     @stats = @god_page.search('table.infobox tr')[14..-2].text
+#     p @stats
+#     p @stats.scan(/\b\d*\.*\d+/)
+#     p @stats.scan(/\/+\d+\.*\d+/) , @stats.scan(/\d+\.*\d+\//)
+
+#   end
+# end
+
+# ra = Character.new('Kali')
+# ra
+###################################################################################################
 
 class Character
-  def initialize(god)
-    @stats_num = [] # Creating empty array to store base stat numbers
-    mechanize = Mechanize.new 
-    @god_page = mechanize.get("https://smite.fandom.com/wiki/#{god}")
-    @stats = @god_page.search('table.infobox tr')[14..-2].text
-    p @stats
-    p @stats.scan(/\b\d*\.*\d+/)
-    p @stats.scan(/\/+\d+\.*\d+/) , @stats.scan(/\d+\.*\d+\//)
+  attr_reader :stats
 
+  def initialize(god)
+  mechanize = Mechanize.new
+  @god_page = mechanize.get("https://smite.fandom.com/wiki/#{god}")
+  @stats = get_stats
+  end 
+
+  def search_stat(num, type)
+    case type
+    when 1 
+      @god_page.search('table.infobox tr')[num].text.scan(/\b\d*\.*\d+/).map{|value| value.to_f}
+    when 2
+      @god_page.search('table.infobox tr')[num].text.scan(/\.*\d+/).map{|value| value.to_f}
+    end
+  end  
+
+  def get_stats
+    {
+      health: search_stat(15, 1),
+      mana: search_stat(16, 1),
+      speed: search_stat(17, 1),
+      aa_range: search_stat(18, 1),
+      aa_speed: search_stat(19, 1),
+      aa_dmg: search_stat(21, 1),
+      aa_prog: search_stat(22, 1),
+      phys_def: search_stat(24, 1),
+      magi_def: search_stat(25, 1),
+      hp5: search_stat(27, 1),
+      mp5: search_stat(28, 1)
+    }
   end
 end
-
-ra = Character.new('Kali')
-ra

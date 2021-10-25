@@ -1,3 +1,4 @@
 Dir["/home/*/smite_calc/lib/*/*"].each {|file| require file }
 
-puts RA
+heimdallr = Character.new("Loki")
+puts heimdallr.stats
