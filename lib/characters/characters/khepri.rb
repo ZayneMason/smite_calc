@@ -1,0 +1,1 @@
+Khepri = {name: "Khepri", health: [490.0, 90.0], mana: [190.0, 34.0], speed: [365.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 1.2], aa_dmg: [38.0, 1.5, 20.0], aa_prog: [1.0, 0.5, 1.5], phys_def: [19.0, 3.0], magi_def: [30.0, 0.9], hp5: [8.0, 0.8], mp5: [4.6, 0.4]}

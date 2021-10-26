@@ -1,0 +1,1 @@
+Janus = {name: "Janus", health: [400.0, 70.0], mana: [350.0, 58.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.0, 0.8], aa_dmg: [34.0, 1.45, 20.0], aa_prog: [], phys_def: [8.0, 2.6], magi_def: [30.0, 0.9], hp5: [6.0, 0.45], mp5: [5.0, 0.45]}

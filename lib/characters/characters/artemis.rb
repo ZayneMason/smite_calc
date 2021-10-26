@@ -1,0 +1,1 @@
+Artemis = {name: "Artemis", health: [450.0, 75.0], mana: [205.0, 34.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.95, 1.7], aa_dmg: [35.0, 2.5, 100.0], aa_prog: [], phys_def: [12.0, 3.0], magi_def: [30.0, 0.9], hp5: [8.0, 0.68], mp5: [4.4, 0.25]}

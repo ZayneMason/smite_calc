@@ -1,0 +1,1 @@
+Chronos = {name: "Chronos", health: [400.0, 75.0], mana: [240.0, 42.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.0, 1.5], aa_dmg: [40.0, 1.5, 20.0], aa_prog: [], phys_def: [11.0, 2.9], magi_def: [30.0, 0.9], hp5: [7.0, 0.48], mp5: [4.4, 0.44]}

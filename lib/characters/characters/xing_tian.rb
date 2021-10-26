@@ -1,0 +1,1 @@
+Xing_Tian = {name: "Xing_Tian", health: [495.0, 90.0], mana: [200.0, 40.0], speed: [360.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [0.9, 1.2], aa_dmg: [35.0, 1.55, 20.0], aa_prog: [1.0, 1.0, 1.0, 1.0], phys_def: [21.0, 3.4], magi_def: [30.0, 0.9], hp5: [5.0, 0.54], mp5: [4.5, 0.45]}

@@ -1,0 +1,1 @@
+Anubis = {name: "Anubis", health: [380.0, 70.0], mana: [280.0, 58.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.86, 0.99], aa_dmg: [35.0, 1.5, 20.0], aa_prog: [], phys_def: [10.0, 2.5], magi_def: [30.0, 0.9], hp5: [7.0, 0.45], mp5: [4.8, 0.36]}

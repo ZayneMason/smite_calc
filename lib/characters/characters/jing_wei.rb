@@ -1,0 +1,1 @@
+Jing_Wei = {name: "Jing_Wei", health: [445.0, 78.0], mana: [205.0, 36.0], speed: [370.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.0, 1.4], aa_dmg: [38.0, 2.7, 100.0], aa_prog: [], phys_def: [11.0, 2.9], magi_def: [30.0, 0.9], hp5: [7.0, 0.68], mp5: [4.4, 0.3]}

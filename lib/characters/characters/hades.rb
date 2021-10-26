@@ -1,0 +1,1 @@
+Hades = {name: "Hades", health: [475.0, 85.0], mana: [265.0, 53.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.95, 1.05], aa_dmg: [32.0, 1.5, 20.0], aa_prog: [], phys_def: [18.0, 2.6], magi_def: [30.0, 0.9], hp5: [5.0, 0.54], mp5: [5.0, 0.36]}

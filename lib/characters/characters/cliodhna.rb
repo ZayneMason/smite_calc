@@ -1,0 +1,1 @@
+Cliodhna = {name: "Cliodhna", health: [480.0, 72.0], mana: [225.0, 40.0], speed: [375.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 2.16], aa_dmg: [41.0, 2.25, 100.0], aa_prog: [1.0, 1.0, 1.5], phys_def: [12.0, 3.1], magi_def: [30.0, 0.9], hp5: [9.0, 0.85], mp5: [4.3, 0.4]}

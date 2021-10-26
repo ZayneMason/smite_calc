@@ -1,0 +1,1 @@
+Freya = {name: "Freya", health: [405.0, 80.0], mana: [220.0, 37.0], speed: [370.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [0.95, 1.95], aa_dmg: [35.0, 1.5, 20.0], aa_prog: [], phys_def: [14.0, 2.8], magi_def: [30.0, 0.9], hp5: [7.0, 0.52], mp5: [4.5, 0.39]}

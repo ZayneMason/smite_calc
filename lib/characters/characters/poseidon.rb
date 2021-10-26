@@ -1,0 +1,1 @@
+Poseidon = {name: "Poseidon", health: [380.0, 67.0], mana: [245.0, 40.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.87, 1.2], aa_dmg: [35.0, 1.5, 20.0], aa_prog: [], phys_def: [8.0, 2.6], magi_def: [30.0, 0.9], hp5: [6.0, 0.5], mp5: [4.6, 0.4]}

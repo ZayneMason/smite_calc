@@ -1,0 +1,1 @@
+Tiamat = {name: "Tiamat", health: [400.0, 77.0], mana: [300.0, 55.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.88, 1.0], aa_dmg: [34.0, 1.5, 20.0], aa_prog: [], phys_def: [13.0, 2.7], magi_def: [30.0, 0.9], hp5: [7.0, 0.5], mp5: [5.0, 0.44]}

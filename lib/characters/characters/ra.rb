@@ -1,4 +1,1 @@
-Dir["/home/*/smite_calc/lib/characters/character.rb"].each {|file| require file }
-
-class Ra < Character
-end
+Ra = {name: "Ra", health: [385.0, 68.0], mana: [255.0, 48.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.88, 1.0], aa_dmg: [34.0, 1.5, 20.0], aa_prog: [], phys_def: [10.0, 3.0], magi_def: [30.0, 0.9], hp5: [7.0, 0.48], mp5: [4.8, 0.44]}

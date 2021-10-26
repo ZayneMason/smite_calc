@@ -1,0 +1,1 @@
+Hachiman = {name: "Hachiman", health: [455.0, 77.0], mana: [230.0, 36.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.0, 1.3], aa_dmg: [36.0, 2.5, 100.0], aa_prog: [], phys_def: [11.0, 2.75], magi_def: [30.0, 0.9], hp5: [7.0, 0.69], mp5: [4.5, 0.37]}
