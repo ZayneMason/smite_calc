@@ -1,1 +1,0 @@
-Medusa = {name: "Medusa", health: [470.0, 77.0], mana: [220.0, 34.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.95, 1.4], aa_dmg: [38.0, 2.6, 100.0], aa_prog: [], phys_def: [12.0, 3.0], magi_def: [30.0, 0.9], hp5: [8.0, 0.68], mp5: [4.4, 0.25]}

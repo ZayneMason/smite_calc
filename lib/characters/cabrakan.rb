@@ -1,0 +1,1 @@
+Cabrakan_Stats = {:name=>"Cabrakan", :health=>[490.0, 90.0], :mana=>[200.0, 38.0], :speed=>[365.0, 0.0], :aa_range=>[12.0, 0.0], :aa_speed=>[0.9, 1.2], :aa_dmg=>[38.0, 1.5, 20.0], :aa_prog=>[], :phys_def=>[20.0, 3.3], :magi_def=>[30.0, 0.9], :hp5=>[8.0, 0.75], :mp5=>[4.6, 0.42]}

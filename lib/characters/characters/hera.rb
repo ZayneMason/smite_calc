@@ -1,1 +1,0 @@
-Hera = {name: "Hera", health: [380.0, 68.0], mana: [265.0, 45.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.9, 1.0], aa_dmg: [34.0, 1.45, 20.0], aa_prog: [], phys_def: [9.0, 2.7], magi_def: [30.0, 0.9], hp5: [6.0, 0.45], mp5: [4.8, 0.41]}

@@ -1,1 +1,0 @@
-Izanami = {name: "Izanami", health: [450.0, 77.0], mana: [210.0, 35.0], speed: [365.0, 0.0], aa_range: [52.0, 0.0], aa_speed: [0.95, 1.7], aa_dmg: [36.0, 2.4, 75.0], aa_prog: [0.0, 0.0], phys_def: [11.0, 2.9], magi_def: [30.0, 0.9], hp5: [6.0, 0.7], mp5: [4.4, 0.38]}

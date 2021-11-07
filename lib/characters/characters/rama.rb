@@ -1,1 +1,0 @@
-Rama = {name: "Rama", health: [460.0, 76.0], mana: [205.0, 34.0], speed: [370.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.95, 1.7], aa_dmg: [40.0, 2.5, 100.0], aa_prog: [], phys_def: [12.0, 2.8], magi_def: [30.0, 0.9], hp5: [8.0, 0.65], mp5: [4.5, 0.25]}

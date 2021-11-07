@@ -1,1 +1,0 @@
-Olorun = {name: "Olorun", health: [450.0, 75.0], mana: [240.0, 58.0], speed: [370.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.05, 1.5], aa_dmg: [40.0, 2.38, 25.0], aa_prog: [], phys_def: [13.0, 3.0], magi_def: [30.0, 0.9], hp5: [7.0, 0.45], mp5: [5.0, 0.4]}

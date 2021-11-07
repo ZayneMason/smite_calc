@@ -1,1 +1,0 @@
-Bakasura = {name: "Bakasura", health: [455.0, 78.0], mana: [200.0, 39.0], speed: [370.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 1.6], aa_dmg: [38.0, 2.2, 100.0], aa_prog: [], phys_def: [13.0, 2.8], magi_def: [30.0, 0.9], hp5: [9.0, 0.68], mp5: [4.8, 0.46]}

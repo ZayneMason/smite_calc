@@ -1,1 +1,0 @@
-Zhong_Kui = {name: "Zhong_Kui", health: [450.0, 85.0], mana: [250.0, 47.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.86, 1.0], aa_dmg: [33.0, 1.5, 20.0], aa_prog: [], phys_def: [8.0, 2.6], magi_def: [30.0, 0.9], hp5: [6.0, 0.44], mp5: [4.8, 0.45]}

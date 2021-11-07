@@ -1,1 +1,0 @@
-Raijin = {name: "Raijin", health: [385.0, 80.0], mana: [255.0, 43.0], speed: [355.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.87, 0.9], aa_dmg: [34.0, 1.5, 20.0], aa_prog: [], phys_def: [9.0, 3.1], magi_def: [30.0, 0.9], hp5: [6.0, 0.45], mp5: [4.6, 0.46]}

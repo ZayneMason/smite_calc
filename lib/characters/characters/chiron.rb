@@ -1,1 +1,0 @@
-Chiron = {name: "Chiron", health: [460.0, 75.0], mana: [225.0, 40.0], speed: [380.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.0, 1.4], aa_dmg: [35.0, 2.35, 100.0], aa_prog: [], phys_def: [12.0, 2.8], magi_def: [30.0, 0.9], hp5: [6.0, 0.65], mp5: [4.4, 0.38]}

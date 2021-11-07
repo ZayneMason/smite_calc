@@ -1,1 +1,0 @@
-Zeus = {name: "Zeus", health: [380.0, 71.0], mana: [245.0, 44.0], speed: [360.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.95, 0.99], aa_dmg: [35.0, 1.5, 20.0], aa_prog: [], phys_def: [8.0, 2.7], magi_def: [30.0, 0.9], hp5: [6.0, 0.45], mp5: [4.6, 0.45]}

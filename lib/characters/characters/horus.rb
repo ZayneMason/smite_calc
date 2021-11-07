@@ -1,1 +1,0 @@
-Horus = {name: "Horus", health: [485.0, 84.0], mana: [230.0, 37.0], speed: [370.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 1.2], aa_dmg: [37.0, 2.1, 100.0], aa_prog: [], phys_def: [17.0, 3.0], magi_def: [30.0, 0.9], hp5: [6.0, 0.8], mp5: [4.7, 0.45]}

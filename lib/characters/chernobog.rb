@@ -1,0 +1,1 @@
+Chernobog_Stats = {:name=>"Chernobog", :health=>[450.0, 80.0], :mana=>[220.0, 38.0], :speed=>[365.0, 0.0], :aa_range=>[55.0, 0.0], :aa_speed=>[0.95, 1.7], :aa_dmg=>[36.0, 2.6, 100.0], :aa_prog=>[], :phys_def=>[11.0, 3.0], :magi_def=>[30.0, 0.9], :hp5=>[8.0, 0.67], :mp5=>[4.4, 0.35]}

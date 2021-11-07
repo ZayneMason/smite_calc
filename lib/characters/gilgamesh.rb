@@ -1,0 +1,1 @@
+Gilgamesh_Stats = {:name=>"Gilgamesh", :health=>[480.0, 85.0], :mana=>[210.0, 35.0], :speed=>[375.0, 0.0], :aa_range=>[12.0, 0.0], :aa_speed=>[1.0, 1.25], :aa_dmg=>[34.0, 2.3, 100.0], :aa_prog=>[], :phys_def=>[18.0, 3.0], :magi_def=>[30.0, 0.9], :hp5=>[10.0, 0.8], :mp5=>[4.3, 0.39]}

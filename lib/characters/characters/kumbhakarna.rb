@@ -1,1 +1,0 @@
-Kumbhakarna = {name: "Kumbhakarna", health: [490.0, 100.0], mana: [200.0, 34.0], speed: [365.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 1.2], aa_dmg: [38.0, 1.5, 20.0], aa_prog: [1.0, 0.75, 1.25], phys_def: [18.0, 3.2], magi_def: [30.0, 0.9], hp5: [8.0, 0.75], mp5: [4.6, 0.42]}

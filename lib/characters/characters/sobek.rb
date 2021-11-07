@@ -1,1 +1,0 @@
-Sobek = {name: "Sobek", health: [490.0, 95.0], mana: [210.0, 35.0], speed: [365.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [0.85, 1.4], aa_dmg: [38.0, 1.5, 20.0], aa_prog: [], phys_def: [19.0, 3.0], magi_def: [30.0, 0.9], hp5: [6.0, 0.75], mp5: [4.5, 0.43]}

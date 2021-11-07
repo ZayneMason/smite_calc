@@ -1,1 +1,0 @@
-Yemoja = {name: "Yemoja", health: [490.0, 95.0], mana: [0.0, 0.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [1.0, 1.2], aa_dmg: [34.0, 1.5, 20.0], aa_prog: [], phys_def: [19.0, 3.0], magi_def: [30.0, 0.9], hp5: [6.0, 0.7], mp5: [0.0, 0.0]}

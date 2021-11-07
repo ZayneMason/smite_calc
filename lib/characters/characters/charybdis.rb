@@ -1,1 +1,0 @@
-Charybdis = {name: "Charybdis", health: [440.0, 77.0], mana: [220.0, 38.0], speed: [365.0, 0.0], aa_range: [55.0, 0.0], aa_speed: [0.95, 1.6], aa_dmg: [38.0, 2.6, 100.0], aa_prog: [1.0, 1.0, 0.4, 0.4, 0.4], phys_def: [11.0, 2.9], magi_def: [30.0, 0.9], hp5: [7.0, 0.69], mp5: [4.4, 0.38]}

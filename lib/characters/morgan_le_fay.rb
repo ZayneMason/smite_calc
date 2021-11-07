@@ -1,0 +1,1 @@
+Morgan_Le_Fay_Stats = {:name=>"Morgan_Le_Fay", :health=>[430.0, 77.0], :mana=>[250.0, 55.0], :speed=>[365.0, 0.0], :aa_range=>[55.0, 0.0], :aa_speed=>[1.0, 0.8], :aa_dmg=>[35.0, 1.5, 20.0], :aa_prog=>[], :phys_def=>[14.0, 3.0], :magi_def=>[30.0, 0.9], :hp5=>[8.0, 0.48], :mp5=>[4.8, 0.44]}

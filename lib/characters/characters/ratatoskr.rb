@@ -1,1 +1,0 @@
-Ratatoskr = {name: "Ratatoskr", health: [420.0, 73.0], mana: [240.0, 41.0], speed: [375.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 2.0], aa_dmg: [39.0, 2.25, 100.0], aa_prog: [1.0, 0.5, 0.5, 1.25], phys_def: [12.0, 3.0], magi_def: [30.0, 0.9], hp5: [9.0, 0.7], mp5: [4.6, 0.46]}

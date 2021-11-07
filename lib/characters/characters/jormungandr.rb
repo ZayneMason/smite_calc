@@ -1,1 +1,0 @@
-Jormungandr = {name: "Jormungandr", health: [495.0, 100.0], mana: [190.0, 40.0], speed: [365.0, 0.0], aa_range: [35.0, 0.0], aa_speed: [1.0, 1.0], aa_dmg: [11.2, 0.96, 8.0], aa_prog: [5.0, 0.0, 2.0, 0.0], phys_def: [21.0, 3.5], magi_def: [30.0, 0.9], hp5: [7.0, 0.9], mp5: [4.5, 0.45]}

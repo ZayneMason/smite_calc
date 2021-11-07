@@ -1,1 +1,0 @@
-Camazotz = {name: "Camazotz", health: [440.0, 78.0], mana: [240.0, 35.0], speed: [375.0, 0.0], aa_range: [12.0, 0.0], aa_speed: [1.0, 2.0], aa_dmg: [39.0, 2.3, 100.0], aa_prog: [1.0, 1.0, 1.0, 3.0], phys_def: [11.0, 3.0], magi_def: [30.0, 0.9], hp5: [8.0, 0.67], mp5: [4.4, 0.3]}
