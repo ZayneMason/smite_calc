@@ -1,4 +1,4 @@
-Dir["/home/*/smite_calc/lib/characters/character.rb"].each { |file| require file }
+Dir["/home/*/smite_calc/lib/character_stuff/character.rb"].each { |file| require file }
 
 Achilles_Stats = {
   name: "Achilles", 
@@ -8,7 +8,7 @@ Achilles_Stats = {
   aa_range: [16.0, 0.0], 
   aa_speed: [0.95, 1.25], 
   aa_dmg: [38.0, 2.0, 100.0], 
-  aa_prog: [], 
+  aa_prog: [1], 
   phys_def: [17.0, 3.0], 
   magi_def: [30.0, 0.9], 
   hp5: [9.0, 0.75], 

@@ -17,3 +17,4 @@ module Crowd_Control
     puts enemy
   end
 end
+
