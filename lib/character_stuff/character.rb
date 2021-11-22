@@ -2,20 +2,8 @@ class Character
   attr_accessor :stats
 
   def initialize(character)
-    @stats = {
-      name: character[:name].dup, 
-      health: character[:health].dup, 
-      mana: character[:mana].dup, 
-      speed: character[:speed].dup, 
-      aa_range: character[:aa_range].dup, 
-      aa_speed: character[:aa_speed].dup, 
-      aa_dmg: character[:aa_dmg].dup, 
-      aa_prog: character[:aa_prog].dup, 
-      phys_def: character[:phys_def].dup, 
-      magi_def: character[:magi_def].dup, 
-      hp5: character[:hp5].dup, 
-      mp5: character[:mp5].dup
-    }
+    copy_stats = Marshal.dump(character)
+    @stats = Marshal.load(copy_stats)
   end
 
   def level(level)
@@ -28,8 +16,18 @@ class Character
     @stats[:hp5][0] += (@stats[:hp5][1] * level)
     @stats[:mp5][0] += (@stats[:mp5][1] * level)
   end
+
+  def add_item(items)
+    items.each do |item|
+      item.holder(self)
+      item.item_stats.each_pair do |stat, value|
+        @stats[stat][0] += value
+      end
+    end
+  end
+
 end
 
 # Need a way of evaluating current stats, maximum stats, and stats without items (for leveling)
 # Need a way of preventing going over dev implemented soft caps and hard caps
-# 
+

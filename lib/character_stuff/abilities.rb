@@ -1,20 +1,19 @@
-class Abilities
-  attr_reader :ability_stats
-  def initialize(ability_stats)
-    @ability_stats = ability_stats
-  end
-end
+module Abilities
 
-module Crowd_Control
-  def slow(enemy)
-    puts "=> Slowing #{enemy.name}."
-    enemy.character_details[:movement_speed] -= (@ability_stats[:slow] * enemy.character_details[:movement_speed])
-    puts enemy
-    puts "=> #{enemy.name} is now slowed for 3 seconds."
-    sleep(3)
-    enemy.refresh_stats
-    puts "=> #{enemy.name} is no longer slowed."
-    puts enemy
+  def slow(target, amount)
+    target.stats[:speed] -= amount
   end
-end
 
+  def buff_move_speed(target, amount)
+    target.stats[:speed] += amount
+  end
+
+  def damage(target, amount)
+    target.stats[:health] -= amount
+  end
+  
+  def heal(target, amount)
+    target.stats[:health] += amount
+  end
+
+end

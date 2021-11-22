@@ -45,6 +45,15 @@
 #       name: @name,
 #       health: search_stat(15),
 #       mana: search_stat(16),
+#       phys_pwr: [0],
+#       magi_pwr: [0],
+#       phys_pen: [0],
+#       phys_pen_flat: [0],
+#       magi_pen: [0],
+#       magi_pen_flat: [0],
+#       phys_ls: [0],
+#       magi_ls: [0],
+#       crit_chance: [0],
 #       speed: search_stat(17),
 #       aa_range: search_stat(18),
 #       aa_speed: search_stat(19),
@@ -53,7 +62,10 @@
 #       phys_def: search_stat(24),
 #       magi_def: search_stat(25),
 #       hp5: search_stat(27),
-#       mp5: search_stat(28)
+#       mp5: search_stat(28),
+#       ccr: [0],
+#       cdr: [0],
+
 #     }
 #   end
 
